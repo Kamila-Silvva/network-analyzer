@@ -4,11 +4,11 @@ Script Python para detecção de anomalias em tráfego de rede.
 
 ## O que detecta
 
-- TCP na porta 53 — tunelamento DNS / C2
-- LDAP na porta 389 — credenciais em texto puro
-- Queries DNS longas — possível data exfiltration
-- Alta entropia em subdomínios — indicativo de DGA
-- LDAPS/636 — registrado como tráfego seguro
+- TCP na porta 53: tunelamento DNS / C2
+- LDAP na porta 389: credenciais em texto puro
+- Queries DNS longa: possível data exfiltration
+- Alta entropia em subdomínios: indicativo de DGA
+- LDAPS/636: registrado como tráfego seguro
 
 ## Requisitos
 
